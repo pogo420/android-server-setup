@@ -23,5 +23,8 @@ Implementing server in android phone
       *  Get the IP of android system:  `hostname -I`
       * Login into ssh: `ssh <user_name>@<ip of system> -p 2022
     
+   *  In the end do this again:
+      *  `sudo apt-get update && sudo apt-get upgrade`  
+    
 
 
