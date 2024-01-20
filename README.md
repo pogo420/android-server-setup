@@ -26,5 +26,7 @@ Implementing server in android phone
    *  In the end do this again:
       *  `sudo apt-get update && sudo apt-get upgrade`  
     
-
+## Hardware status:
+* Secondary memory check `df -h /`
+* Primary memory check `free -h -w`
 
