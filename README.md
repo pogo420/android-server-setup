@@ -30,3 +30,5 @@ Implementing server in android phone
 * Secondary memory check `df -h /`
 * Primary memory check `free -h -w`
 
+## Important info:
+* Ports below 1000 are reserved by android.
