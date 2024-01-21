@@ -26,7 +26,12 @@ Implementing server in android phone
    *  In the end do this again:
       *  `sudo apt-get update && sudo apt-get upgrade`
    *  Install http server apache here are the [steps](https://ubuntu.com/tutorials/install-and-configure-apache#2-installing-apache).
-    
+      ```
+      sudo apt update
+      sudo apt install apache2
+      sudo apt-get install ufw
+      sudo service apache2 start
+      ```
 ## Hardware status:
 * Secondary memory check `df -h /`
 * Primary memory check `free -h -w`
