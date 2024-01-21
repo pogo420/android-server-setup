@@ -24,7 +24,8 @@ Implementing server in android phone
       * Login into ssh: `ssh <user_name>@<ip of system> -p 2022
     
    *  In the end do this again:
-      *  `sudo apt-get update && sudo apt-get upgrade`  
+      *  `sudo apt-get update && sudo apt-get upgrade`
+   *  Install http server apache here are the [steps](https://ubuntu.com/tutorials/install-and-configure-apache#2-installing-apache).
     
 ## Hardware status:
 * Secondary memory check `df -h /`
