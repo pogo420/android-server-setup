@@ -23,6 +23,9 @@ Implementing server in android phone
       *  Get the IP of android system:  `hostname -I`
       * Login into ssh: `ssh <user_name>@<ip of system> -p 2022
     
+   *  Install git:
+   *  `sudo apt install git`
+    
    *  In the end do this again:
       *  `sudo apt-get update && sudo apt-get upgrade`
 
@@ -32,3 +35,5 @@ Implementing server in android phone
 
 ## Important info:
 * Ports below 1000 are reserved by android.
+* File transfer:
+  `scp -P <ssh port>  -r dist/* <server_user>@<server_ip>:/location/to/keep/file`
