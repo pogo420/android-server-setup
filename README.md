@@ -37,3 +37,8 @@ Implementing server in android phone
 * Ports below 1000 are reserved by android.
 * File transfer:
   `scp -P <ssh port>  -r dist/* <server_user>@<server_ip>:/location/to/keep/file`
+
+* Deploy Angular application:
+  * Go to the level having index.html
+  * Run this command: `python3 -m http.server 8080`
+  
