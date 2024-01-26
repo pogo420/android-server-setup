@@ -22,9 +22,24 @@ Implementing server in android phone
       ```
       *  Get the IP of android system:  `hostname -I`
       * Login into ssh: `ssh <user_name>@< ip of system > -p 2022
+      * Generate key: `ssh-keygen -t ed25519 -C "comment for key"`
+      * In laptop setup, ssh config:
+      ```
+      Host mob_server
+         Hostname ip_address
+         Port 2022
+         User <user_name>
+         AddKeysToAgent yes 
+         UseKeychain yes 
+         IdentityFile /path/to/private/key
+      ``` 
+      * Copy the public key to android system: `ssh-copy-id -i /path/to/public/key.pub mob_server`
+      * Login to server and disable password login< Critical security feature >:
+         * edit: `/etc/ssh/sshd_config`
+         * set key `PasswordAuthentication` to no
     
    *  Install git:
-   *  `sudo apt install git`
+      *  `sudo apt install git`
     
    *  In the end do this again:
       *  `sudo apt-get update && sudo apt-get upgrade`
