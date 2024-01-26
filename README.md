@@ -21,7 +21,7 @@ Implementing server in android phone
       sudo apt-get install openssh-server 
       ```
       *  Get the IP of android system:  `hostname -I`
-      * Login into ssh: `ssh <user_name>@<ip of system> -p 2022
+      * Login into ssh: `ssh <user_name>@< ip of system > -p 2022
     
    *  Install git:
    *  `sudo apt install git`
