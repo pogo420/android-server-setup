@@ -56,4 +56,8 @@ Implementing server in android phone
 * Deploy Angular application:
   * Go to the level having index.html
   * Run this command: `python3 -m http.server 8080`
+ 
+* Checking list of process:
+   * excute command: `ps auxfww`
+  
   
